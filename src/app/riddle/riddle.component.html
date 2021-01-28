@@ -1,0 +1,18 @@
+<p>
+  book-detail works!
+  
+</p>
+<div *ngIf="gameevent">
+  <div>
+    {{gameevent.causationId}}
+  </div>
+  <div>
+    {{gameevent.name}}
+  </div>
+  <div>
+    {{gameevent.id}}
+  </div>
+</div>
+<p>
+<button (click)="toggleVisibility()">Toggle</button>
+</p>
